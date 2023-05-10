@@ -1,6 +1,6 @@
-import "./Main.css";
+import "./Nav";
 
-function Mainfirst() {
+function Login() {
   return (
     <div id="about" className="about">
       <div className="container">
@@ -29,5 +29,4 @@ function Mainfirst() {
     </div>
   );
 }
-
-export default Mainfirst;
+export default Login;

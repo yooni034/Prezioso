@@ -1,0 +1,60 @@
+#services {
+  padding-bottom: 10px;
+}
+
+#services .icon-box {
+  margin-bottom: 40px;
+}
+
+#services .icon {
+  float: left;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  transition: 0.5s;
+  border: 2px solid #85b0be;
+}
+
+#services .icon i {
+  color: #649aac;
+  font-size: 24px;
+  line-height: 0;
+}
+
+#services .title {
+  margin-left: 90px;
+  font-weight: 700;
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+
+#services .title a {
+  color: #052c3f;
+  transition: 0.3s;
+}
+
+#services .description {
+  margin-left: 90px;
+  line-height: 24px;
+  font-size: 14px;
+}
+
+#services .icon-box:hover .icon {
+  background: #85b0be;
+}
+
+#services .icon-box:hover .icon i {
+  color: #fff;
+}
+
+#services .icon-box:hover .title a {
+  color: #85b0be;
+}
+
+.section-title {
+  text-align: center;
+  padding-top: 50px;
+}
