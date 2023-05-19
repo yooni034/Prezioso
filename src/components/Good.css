@@ -1,0 +1,74 @@
+section {
+  padding: 1.5rem 0;
+  overflow: hidden;
+}
+
+.custom-button {
+  border: none;
+  display: inline-block;
+  font-size: 20px;
+  font-weight: 400;
+  position: relative;
+  background-color: #839e37;
+  color: white;
+  width: 300px;
+  height: 60px;
+}
+
+.custom-button:hover {
+  background-color: green;
+  color: black;
+}
+
+.content1 {
+  display: flex;
+}
+
+.content2 {
+  display: grid;
+  border-left-color: #dadae061;
+  border-left-style: inset;
+}
+
+.content3 {
+  display: -webkit-inline-box;
+  width: 50rem;
+  height: 40rem;
+  padding-left: 4rem;
+  margin-bottom: 2rem;
+}
+
+.goodM {
+  /* 굿네이버스 로고 */
+  width: 27rem;
+  height: 8.5rem;
+  margin-left: 4rem;
+}
+
+.goodD1 {
+  /* 애들 둘 하트 사진 */
+  width: 25rem;
+  height: 18rem;
+}
+
+.adong {
+  /* 텍스트 */
+  width: 120rem;
+  height: 300px;
+  margin-top: 1.2rem;
+  margin-left: 3rem;
+}
+
+.text1 {
+  /* 첫번째 진한 텍스 */
+  font-size: 1rem;
+  color: #839e37;
+  font-weight: bold;
+}
+
+.text2 {
+  /* 두번째 진한 텍스트 */
+  font-size: 0.8rem;
+  color: #36454f;
+  font-weight: bold;
+}

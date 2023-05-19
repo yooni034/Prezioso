@@ -1,0 +1,170 @@
+.contentjoin {
+  /*위에 세줄 합친거*/
+  width: 38rem;
+  margin: 2.8rem auto 7rem;
+}
+
+.contentjoin h1 {
+  /* 회원가입 */
+  font-size: 2.6rem;
+  color: #222;
+  text-align: center;
+  margin-bottom: 0.8rem;
+}
+
+.stit {
+  /* 작은 마음이 누군가에겐 */
+  font-size: 1.4rem;
+  color: #02652f;
+  text-align: center;
+  font-weight: 200;
+}
+
+.contentjoin h4 {
+  /* 회원정보입력 */
+  margin-bottom: 1.5rem;
+  font-size: 1.35rem;
+  color: #fff;
+  display: block;
+  background: #3d7458;
+  border-radius: 10px;
+  padding: 1.5rem 2rem;
+  position: relative;
+}
+
+.contentjoin h4::after {
+  content: "→";
+  display: block;
+  width: 2rem;
+  height: 2rem;
+  position: absolute;
+  top: 1rem;
+  right: 1.5rem;
+  font-size: 2rem;
+}
+
+.point {
+  /* 포인트 수정 */
+  color: #ff0000;
+  margin-left: 0.3rem;
+  vertical-align: middle;
+  font-size: 1.25rem;
+}
+
+.name,
+.username,
+.birth,
+.phone,
+.password,
+.email {
+  /* text 수정 */
+  display: inline;
+  font-size: 1rem;
+}
+
+.check {
+  /* 중복확인 */
+  padding: 0 3rem 0 3rem;
+  margin-left: 2rem;
+  font-size: 1.1rem;
+  height: 3rem;
+  line-height: 3rem;
+  color: #3d7458;
+  border: 1px solid #3d7458;
+  background-color: white;
+}
+
+.duplicate-message {
+  color: red; /* 중복된 아이디 메시지의 글자 색을 빨간색으로 변경 */
+}
+
+.valid-message {
+  color: green; /* 중복되지 않은 아이디 메시지의 글자 색을 초록색으로 변경 */
+}
+
+.error-message {
+  color: red; /* 실패 메시지의 글자 색을 빨간색으로 변경 */
+  font-size: 0.9rem;
+}
+
+.inputname,
+.inputusername,
+.inputpass,
+.inputemail,
+.inputbirth,
+.inputphone {
+  /* 입력 받는 곳 전체 수정 */
+  margin-bottom: 0.8rem;
+  font-size: 1rem;
+  color: #101010;
+  border: 1px solid rgb(216, 217, 218);
+  font-weight: 500;
+  height: 3rem;
+  line-height: 3rem;
+  transition: all ease 0.5s 0s;
+}
+
+.inputname {
+  /* 이름 */
+  width: 100%;
+  max-width: 16rem;
+  padding: 0 0 0 20px;
+}
+
+.inputusername {
+  /* 아이디 */
+  width: 100%;
+  max-width: 25rem;
+  padding: 0 0 0 20px;
+}
+
+.inputpass,
+.inputemail {
+  /* 비밀번호, 이메일 */
+  width: 100%;
+  max-width: 38rem;
+  padding: 0 0 0 20px;
+}
+
+.inputbirth {
+  /* 생일 */
+  max-width: 38rem;
+  padding: 0 7.25rem 0 20px;
+  margin-right: 1.8rem;
+  cursor: pointer;
+}
+
+.inputphone {
+  /* 전화번호 */
+  max-width: 38rem;
+  padding: 0 1.634rem 0 20px;
+  margin-right: 1.8rem;
+  cursor: pointer;
+}
+
+.inputbirth:last-child,
+.inputphone:last-child {
+  /* 마지막에 마진 안주기 */
+  margin-right: 0;
+}
+
+.label {
+  display: block;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.buttonjoin {
+  /* 가입하기 버튼 */
+  padding: 0 3rem 0 3rem;
+  font-size: 1.1rem;
+  height: 3.2rem;
+  line-height: 3rem;
+  color: white;
+  border: none;
+  background-color: #3d7458;
+}
