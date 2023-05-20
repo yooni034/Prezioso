@@ -15,8 +15,8 @@ import Good from "./components/Good";
 function DropdownMenu() {
   return (
     <NavDropdown title="후원" id="basic-nav-dropdown">
-      <NavDropdown.Item href="/donate/green">초록우산</NavDropdown.Item>
       <NavDropdown.Item href="/donate/unicef">유니세프</NavDropdown.Item>
+      <NavDropdown.Item href="/donate/green">초록우산</NavDropdown.Item>
       <NavDropdown.Item href="/donate/good">굿네이버스</NavDropdown.Item>
     </NavDropdown>
   );
@@ -64,8 +64,8 @@ function App() {
         <Route path="/" element={<Main />} />
         <Route path="/serve" element={<Serve />} />
         <Route path="/donate" element={<Donate />} />
-        <Route path="/donate/green" element={<Green />} />
         <Route path="/donate/unicef" element={<Unicef />} />
+        <Route path="/donate/green" element={<Green />} />
         <Route path="/donate/good" element={<Good />} />
         <Route path="/mypage" element={<Mypage />} />
         <Route path="/login" element={<Login />} />

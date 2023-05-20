@@ -160,7 +160,7 @@ function Join() {
             value={name}
             onChange={handleNameChange}
           />
-        </label>{" "}
+        </label>
         <label className="label">
           <h5 className="username">
             아이디<strong className="point">*</strong>

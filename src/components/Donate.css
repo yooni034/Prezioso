@@ -17,7 +17,6 @@ section {
 
 .custom-button:hover {
   background-color: green;
-  color: black;
 }
 
 .content1 {
@@ -32,10 +31,7 @@ section {
 
 .content3 {
   display: -webkit-inline-box;
-  width: 50rem;
-  height: 40rem;
-  padding-left: 4rem;
-  margin-bottom: 2rem;
+  padding-left: 3.5rem;
 }
 
 .goodM {
@@ -45,30 +41,53 @@ section {
   margin-left: 4rem;
 }
 
-.goodD1 {
+.unicefM {
+  /* 유니세프 로고 */
+  width: 24rem;
+  height: 6.5rem;
+  margin-left: 4rem;
+}
+
+.greenM {
+  /* 초록우산 로고 */
+  width: 27rem;
+  height: 7rem;
+}
+
+.goodD1,
+.goodD2,
+.goodD3,
+.greenD1,
+.greenD2,
+.greenD3,
+.greenD4,
+.unicefD1,
+.unicefD2,
+.unicefD3,
+.unicefD4 {
   /* 애들 둘 하트 사진 */
-  width: 25rem;
-  height: 18rem;
+  width: 23rem;
+  height: 15rem;
+  box-shadow: 5px 6px 6px #c3c3c3;
 }
 
 .adong {
   /* 텍스트 */
   width: 120rem;
   height: 300px;
-  margin-top: 1.2rem;
   margin-left: 3rem;
 }
 
 .text1 {
   /* 첫번째 진한 텍스 */
-  font-size: 1rem;
-  color: #839e37;
+  font-size: 1.05rem;
+  color: #047838;
   font-weight: bold;
 }
 
 .text2 {
   /* 두번째 진한 텍스트 */
-  font-size: 0.8rem;
+  font-size: 0.85rem;
   color: #36454f;
   font-weight: bold;
 }
